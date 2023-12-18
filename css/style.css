@@ -5,74 +5,94 @@
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-  }
+}
+
 .border-left {
-  border-left: 2px solid #92ccce; /* Adjust the color as needed */
-  padding-left: 15px; /* Add padding for better visual appearance */
+    border-left: 2px solid #92ccce;
+    /* Adjust the color as needed */
+    padding-left: 15px;
+    /* Add padding for better visual appearance */
 }
+
 .profile-pic {
-  width: 150px; /* Adjust the width as needed */
-  margin-top: 20px; /* Adjust the margin-top to move it down */
+    width: 150px;
+    /* Adjust the width as needed */
+    margin-top: 20px;
+    /* Adjust the margin-top to move it down */
 }
-.header-text{
-  color: white;
+
+.header-text {
+    color: white;
 }
+
 .smaller-image {
-  max-width: 100%; /* Set a maximum width for responsiveness */
-  height: auto; /* Maintain aspect ratio */
-  max-height: 150px; /* Set a maximum height as needed */
+    max-width: 100%;
+    /* Set a maximum width for responsiveness */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: 150px;
+    /* Set a maximum height as needed */
 }
 
 h1 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
-.height-fix {
-  height: 108% !important;
+.contact-section {
+    text-align: center;
 }
-.contact-section
-{
-  text-align: center;
-}
-.myimage{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-origin: border-box;
-}
-.imgdiv {
-  overflow:hidden;
-  height: 225px;
 
+.second-img {
+    height: 340px;
 }
-.large-screen{
-  text-align: end;
+
+.large-screen {
+    text-align: end;
+}
+
+/* Add this CSS to your existing style.css file or in a style tag within your HTML */
+a {
+    color: grey; /* Set the default color for the links */
+    text-decoration: none; /* Remove underlines from links if you wish */
+    border-bottom: 1px solid grey; /* Add an initial transparent underline */
+    transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+    font-size: larger;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #92ccce; /* Set the color for links on hover */
+    border-bottom: 1px solid #92ccce;
+}
+.contact-section {
+    text-align: justify;
 }
 @media (max-width: 766px) {
-  .border-left {
-    border-left: none;
-    padding-left: 0;
-  }
+    .border-left {
+        border-left: none;
+        padding-left: 0;
+    }
 
-  /* Add a border under the Professional Summary column */
-  .responsive {
-    border-bottom: 2px solid #92ccce;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    text-align: left;
-  }
+    /* Add a border under the Professional Summary column */
+    .responsive {
+        border-bottom: 2px solid #92ccce;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
 
-  .responsive-center {
-    align-items: center;
-    display: contents;
-  }
-  h1 {
-    font-size: x-large;
-  }
-  .contact-section {
+    .responsive-center {
+        align-items: center;
+        display: contents;
+    }
 
-    text-align: justify;
-  }
+    h1 {
+        font-size: x-large;
+    }
+
+    .contact-section {
+
+        text-align: justify;
+    }
 
 }
