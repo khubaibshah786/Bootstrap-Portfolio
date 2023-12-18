@@ -50,23 +50,30 @@ h1 {
     text-align: end;
 }
 
-/* Add this CSS to your existing style.css file or in a style tag within your HTML */
+
 a {
-    color: grey; /* Set the default color for the links */
-    text-decoration: none; /* Remove underlines from links if you wish */
-    border-bottom: 1px solid grey; /* Add an initial transparent underline */
-    transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+    color: grey;
+    /* Set the default color for the links */
+    text-decoration: none;
+    /* Remove underlines from links if you wish */
+    border-bottom: 1px solid grey;
+    /* Add an initial transparent underline */
+    transition: border-bottom 0.3s ease;
+    /* Add a smooth transition effect */
     font-size: larger;
     font-weight: 700;
 }
 
 a:hover {
-    color: #92ccce; /* Set the color for links on hover */
+    color: #92ccce;
+    /* Set the color for links on hover */
     border-bottom: 1px solid #92ccce;
 }
+
 .contact-section {
     text-align: justify;
 }
+
 @media (max-width: 766px) {
     .border-left {
         border-left: none;
