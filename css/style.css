@@ -1,3 +1,4 @@
+/* jumbotron created using image and setting height and width of image */
 .hero-banner {
     background-image: url('../css/images/header-background.jpg');
     height: 400px;
@@ -6,7 +7,7 @@
     background-size: cover;
     background-position: center;
 }
-
+/* border between section and section items */
 .border-left {
     border-left: 2px solid #92ccce;
     /* Adjust the color as needed */
@@ -15,10 +16,10 @@
 }
 
 .profile-pic {
+    /* setting profile pic width */
     width: 150px;
-    /* Adjust the width as needed */
+    /* noving the  pic down in the jumbotron*/
     margin-top: 20px;
-    /* Adjust the margin-top to move it down */
 }
 
 .header-text {
@@ -34,34 +35,35 @@
     /* Set a maximum height as needed */
 }
 
+/* setting font size for all the headers */
 h1 {
     font-size: 18px;
 }
 
+/* setting contact section links to align center */
 .contact-section {
     text-align: center;
 }
 
-.second-img {
-    height: 340px;
-}
-
+/* set content text when not on responsive device */
 .large-screen {
     text-align: end;
 }
 
-
+/* set link colour, remove underlines */
 a {
     color: grey;
     /* Set the default color for the links */
     text-decoration: none;
-    /* Remove underlines from links if you wish */
+    /* Removed underlines from links */
     border-bottom: 1px solid grey;
     /* Add an initial transparent underline */
     transition: border-bottom 0.3s ease;
     /* Add a smooth transition effect */
     font-size: larger;
+    /* Set font size */
     font-weight: 700;
+    /* set Font weight to bold */
 }
 
 a:hover {
@@ -74,6 +76,7 @@ a:hover {
     text-align: justify;
 }
 
+/* responsive devices settings to be applied */
 @media (max-width: 766px) {
     .border-left {
         border-left: none;
@@ -87,19 +90,18 @@ a:hover {
         margin-bottom: 15px;
         text-align: left;
     }
-
+    /* align content to center when on responsive device */
     .responsive-center {
         align-items: center;
         display: contents;
     }
-
+    /* set all h1 to large on responsive */
     h1 {
         font-size: x-large;
     }
-
+    /* set the contact section items to where appropriate */
     .contact-section {
 
         text-align: justify;
     }
-
 }
