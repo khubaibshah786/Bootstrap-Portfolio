@@ -7,7 +7,7 @@
     background-position: center;
   }
 .border-left {
-  border-left: 2px solid #007BFF; /* Adjust the color as needed */
+  border-left: 2px solid #92ccce; /* Adjust the color as needed */
   padding-left: 15px; /* Add padding for better visual appearance */
 }
 .profile-pic {
@@ -23,26 +23,17 @@
   max-height: 150px; /* Set a maximum height as needed */
 }
 
-/* Updated styling for grid item images */
-.grid-item-images img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border: 6px solid #92ccce;
-}
-
-/* Remove unnecessary properties from .grid-item-images class */
-.grid-item-images {
-  position: relative;
-  overflow: hidden;
-  height: 63%;
-  width: 100%;
+h1 {
+  font-size: 18px;
 }
 
 .height-fix {
   height: 108% !important;
 }
-
+.contact-section
+{
+  text-align: center;
+}
 .myimage{
   width: 100%;
   height: 100%;
@@ -50,10 +41,13 @@
   background-position: center;
   background-origin: border-box;
 }
-.imgdiv{
+.imgdiv {
   overflow:hidden;
   height: 225px;
 
+}
+.large-screen{
+  text-align: end;
 }
 @media (max-width: 766px) {
   .border-left {
@@ -62,9 +56,23 @@
   }
 
   /* Add a border under the Professional Summary column */
-  .col-lg-2 {
-    border-bottom: 2px solid #007BFF;
+  .responsive {
+    border-bottom: 2px solid #92ccce;
     padding-bottom: 15px;
     margin-bottom: 15px;
+    text-align: left;
   }
+
+  .responsive-center {
+    align-items: center;
+    display: contents;
+  }
+  h1 {
+    font-size: x-large;
+  }
+  .contact-section {
+
+    text-align: justify;
+  }
+
 }
