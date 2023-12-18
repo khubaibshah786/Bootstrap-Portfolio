@@ -1,4 +1,7 @@
 # Bootstrap Portfolio
+[![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)
+[![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/specs.en.html)
+![Bootstrap](https://img.shields.io/badge/bootstrap-5-blue?style=style=flat&logo=bootstrap&logoColor=white)
 Hello there! 👋 Welcome to my Bootstrap-powered portfolio repository. This project showcases my skills, projects, and provides a glimpse into who I am. Below, you'll find information about the setup, implementation, and technologies used in creating this portfolio.
 
 ## Table of Contents
@@ -128,3 +131,7 @@ After completing my Bootstrap-powered portfolio, I deployed it to GitHub Pages f
  ![alt text](./screenshots/portfolio-1.png)
  ![alt text](./screenshots/portfolio-2.png)
  ![alt text](./screenshots/portfolio-3.png)
+
+ ## Deployed application
+
+ - Click here [Live Site](https://khubaibshah786.github.io/Bootstrap-Portfolio/).
