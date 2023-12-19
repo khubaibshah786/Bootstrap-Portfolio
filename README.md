@@ -88,7 +88,7 @@ I have implemented various Bootstrap components to create sections like the navi
 
 ## Repository Setup Instructions
 ### 1. Clone the Repository:
-git clone https://github.com/your-username/Bootstrap-Portfolio.git
+- git clone https://github.com/your-username/Bootstrap-Portfolio.git
 ### 2. Folder Structure and File Creation:
 Inside the Bootstrap-Portfolio repository, I've organized the project with the following folder structure:
 
